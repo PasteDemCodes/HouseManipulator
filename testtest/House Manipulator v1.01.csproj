@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2AAA7EC6-A16C-4F5E-97E2-E01F66A9E80D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>testtest</RootNamespace>
+    <AssemblyName>testtest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WpfAnimatedGif, Version=1.4.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfAnimatedGif.1.4.15\lib\net\WpfAnimatedGif.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Barcode Scanner.xaml.cs">
+      <DependentUpon>Barcode Scanner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Camera_View.xaml.cs">
+      <DependentUpon>Camera_View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Google_Calendar.xaml.cs">
+      <DependentUpon>Google_Calendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home Manipulator v1.01.xaml.cs">
+      <DependentUpon>Home Manipulator v1.01.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoView.xaml.cs">
+      <DependentUpon>PhotoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Radio.xaml.cs">
+      <DependentUpon>Radio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Recipes.xaml.cs">
+      <DependentUpon>Recipes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeatherInfo.cs" />
+    <Compile Include="WhatsInside.xaml.cs">
+      <DependentUpon>WhatsInside.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Barcode Scanner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Camera_View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="debuglabelControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Google_Calendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Home Manipulator v1.01.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="debuglabelControl.xaml.cs">
+      <DependentUpon>debuglabelControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="PhotoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Radio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Recipes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WhatsInside.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OpenWeatherMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="location_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="location_white_18dpi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="home_button_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="process_button_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="voice_button_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="help_button_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="back_button_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ic_camera_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ic_scanner_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ic_info_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ic_radio_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="floral-paper-2472576_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="semedaki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="20130816-151202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="refrigerator-maintenance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="radio_app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="barcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Google-Calendar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cutest-sleeping-kitties-ever-106__605.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ic_keyboard_arrow_right_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ic_keyboard_arrow_left_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ic_keyboard_arrow_right_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="twitchy-kitty-syndrome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="0.jpg" />
+    <Resource Include="1.jpg" />
+    <Resource Include="2.jpg" />
+    <Resource Include="3.jpg" />
+    <Resource Include="4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="weather_mostly_cloudy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="v-05-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="music_player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="grocery-store-icon-png--0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pastitsio.jpg" />
+    <Resource Include="souffle.jpg" />
+    <Resource Include="steelcutoats.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="YardOn.jpg" />
+    <Resource Include="tv_off.jpg" />
+    <Resource Include="tv_on.gif" />
+    <Resource Include="tv_open2.gif" />
+    <Resource Include="tv_open3.gif" />
+    <Resource Include="Wardrobe.jpg" />
+    <Resource Include="toggle-off.png" />
+    <Resource Include="toggle-on.png" />
+    <Resource Include="temperature-sensitive.png" />
+    <Resource Include="tv.png" />
+    <Resource Include="catpics.png" />
+    <Resource Include="close window.png" />
+    <Resource Include="appIcon.png" />
+    <Resource Include="closewindow2.png" />
+    <Resource Include="closewindow2gray.png" />
+    <Resource Include="closewindow2white.png" />
+    <Resource Include="appIconwhite.png" />
+    <Resource Include="menuwhite.png" />
+    <Resource Include="coffee-pot.png" />
+    <Resource Include="electric-teapot.png" />
+    <Resource Include="add-new.png" />
+    <Resource Include="CasualOutfit.jpg" />
+    <Resource Include="FormalOutfit.jpg" />
+    <Resource Include="SportOutfit.jpg" />
+    <Resource Include="coffeepot_filled.gif" />
+    <Resource Include="avatar.png" />
+    <Resource Include="coffee_default.png" />
+    <Resource Include="coffee_filled.png" />
+    <Resource Include="coffeemaking.gif" />
+    <Resource Include="cold-icon.png" />
+    <Resource Include="hot-icon.png" />
+    <Resource Include="ligthsOff.jpg" />
+    <Resource Include="LivingroomOn.jpg" />
+    <Resource Include="BedroomOn.jpg" />
+    <Content Include="Sympathique.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,32 @@
+﻿<Window x:Class="testtest.WhatsInside"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testtest"
+        mc:Ignorable="d"
+        Title="WhatsInside" Height="555.718" Width="371.033" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="floral-paper-2472576_960_720.jpg"/>
+        </Grid.Background>
+        <Rectangle Fill="#FF5CD8A6" HorizontalAlignment="Center" Height="371" Margin="10,120,10,10" RadiusY="20" RadiusX="20" StrokeThickness="5" VerticalAlignment="Top" Width="345"/>
+        <Grid HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="162" Margin="89,34,0,0">
+            <Rectangle Fill="#FF5CD8A6" HorizontalAlignment="Left" Height="57" RadiusY="13" RadiusX="13" StrokeThickness="2" VerticalAlignment="Top" Width="162" Cursor="Hand">
+                <Rectangle.Stroke>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.92"/>
+                    </LinearGradientBrush>
+                </Rectangle.Stroke>
+            </Rectangle>
+            <Button x:Name="button" Content="ORDER NOW" HorizontalAlignment="Left" VerticalAlignment="Top" Width="162" Height="57" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="18" FontFamily="Arial" UseLayoutRounding="False" Visibility="Hidden"/>
+            <Label x:Name="label" Content="ORDER NOW" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="162" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Arial" Foreground="White" Cursor="Hand" BorderThickness="0" MouseEnter="label_MouseEnter" MouseLeave="label_MouseLeave"/>
+        </Grid>
+        <Label x:Name="Quant" Content="Label" HorizontalAlignment="Left" Margin="134,120,0,0" VerticalAlignment="Top" Height="262" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontSize="16" FontFamily="Arial"/>
+        <Label x:Name="Stock" Content="Label" HorizontalAlignment="Left" Margin="247,120,0,0" VerticalAlignment="Top" Height="262" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontSize="16" FontFamily="Arial"/>
+        <Label x:Name="Ingred" Content="Label" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Height="262" Width="124" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontSize="16" FontFamily="Arial"/>
+        <Label x:Name="sale" Content="Label" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top" Height="109" Width="345" Foreground="#FFF53434" FontFamily="Arial" VerticalContentAlignment="Center" FontSize="14" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\bin\Debug\testtest.exe.config
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\bin\Debug\testtest.exe
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\bin\Debug\testtest.pdb
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\testtest.csprojResolveAssemblyReference.cache
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\Barcode Scanner.g.cs
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\Camera_View.g.cs
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\debuglabelControl.g.cs
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\Google_Calendar.g.cs
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\MainWindow.g.cs
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\PhotoView.g.cs
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\Radio.g.cs
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\App.g.cs
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\testtest_MarkupCompile.cache
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\testtest_MarkupCompile.lref
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\Barcode Scanner.baml
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\Camera_View.baml
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\debuglabelControl.baml
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\Google_Calendar.baml
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\MainWindow.baml
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\PhotoView.baml
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\Radio.baml
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\testtest.g.resources
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\testtest.Properties.Resources.resources
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\testtest.csproj.GenerateResource.Cache
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\testtest.exe
+C:\Users\Man Has no Name\Documents\Visual Studio 2015\Projects\testtest\testtest\obj\Debug\testtest.pdb
